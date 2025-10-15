@@ -32,12 +32,12 @@ def hotel_booking_system():
     else:
       print("please select rooms to proceed to payment section")
   }
-def confirmation_page():
-  {
-    @ send mail
-    if payment == True:
-      payment.popup();
-      printf("payment successful- check mail for more details")
-    else:
-      print("payment unsuccessful ,try again");
+  def confirmation_page():
+    {  
+      @ send mail
+      if payment == True:
+        payment.popup();
+        printf("payment successful- check mail for more details")
+      else:
+        print("payment unsuccessful ,try again");
   
